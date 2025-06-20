@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 export default function ContactPage() {
   const handleWhatsAppClick = () => {
     const message = "Hello! I would like to know more about your products and services."
-    const whatsappUrl = `https://wa.me/918058124167?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/918529086752?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
 
